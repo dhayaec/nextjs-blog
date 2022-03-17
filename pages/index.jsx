@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -21,6 +21,7 @@ export default function Home() {
           <a href="https://nextjs.org/docs" className="card">
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
+            <p>Testing the values</p>
           </a>
 
           <a href="https://nextjs.org/learn" className="card">
@@ -54,8 +55,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
+          Powered by <img src="/vercel.svg" alt="Vercel" className="logo" />
         </a>
       </footer>
 
@@ -103,7 +103,7 @@ export default function Home() {
         }
 
         .title a {
-          color: #0070f3;
+          color: blue;
           text-decoration: none;
         }
 
@@ -135,7 +135,7 @@ export default function Home() {
           padding: 0.75rem;
           font-size: 1.1rem;
           font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+            DejaVu Sans Mono, Vera Sans Mono, Courier New, monospace;
         }
 
         .grid {
@@ -205,5 +205,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
